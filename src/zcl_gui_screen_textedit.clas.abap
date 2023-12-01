@@ -189,6 +189,11 @@ CLASS ZCL_GUI_SCREEN_TEXTEDIT IMPLEMENTATION.
 
 
   METHOD on_screen_pai.
+    CALL METHOD mo_textedit->get_textstream
+      IMPORTING
+        text = mv_text.
+    cl_gui_cfw=>flush( ).
+
     RAISE EVENT pai
       EXPORTING
         iv_command = iv_command.
