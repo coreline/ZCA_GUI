@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_GUI_DATA_VIEW</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Интерфейс для представления данных</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>APPLY_CHANGES</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Применить изменения</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Отобразить данные</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REFRESH</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Обновить данные</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_COMPRESS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Установка режима отображения пустых элементов</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_EDIT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Установка режима редактирования</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_PRETTY</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Установка режима &quot;красивой печати&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_VISIBLE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Установка режима видимости</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

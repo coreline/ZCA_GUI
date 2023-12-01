@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_GUI_SCREEN_ALV</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Обертка экрана с таблицей ALV</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ALV_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV-функция</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ALV_FUNCTION</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>ALV-функция</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Изменить функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_FUNCTION</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Изменить функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Конструктор экрана</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Конструктор экрана</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Создать функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_FUNCTION</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Создать функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISABLE_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Отключить функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISABLE_FUNCTION</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Отключить функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Показать экран в полноэкранном режиме</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Показать экран в полноэкранном режиме</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DOUBLE_CLICK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Двойной клик на строку ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DOUBLE_CLICK</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Двойной клик на строку ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ENABLE_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Включить функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ENABLE_FUNCTION</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Включить функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Выход</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXIT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Выход</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_FIELDCATALOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Возвращает каталог полей</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_FIELDCATALOG</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Возвращает каталог полей</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SELECTED_REF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Возвращает ссылки на выделенные строки</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SELECTED_REF</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Возвращает ссылки на выделенные строки</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SELECTED_ROWS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Возвращает выделенные строки</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SELECTED_ROWS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Возвращает выделенные строки</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Инициализация экрана</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INIT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Инициализация экрана</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PAI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>PAI-логика</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PAI</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>PAI-логика</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>PBO-логика</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>PBO-логика</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>POPUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Показать экран в модальном окне</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>POPUP</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Показать экран в модальном окне</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REFRESH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Обновить ALV-таблицу</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REFRESH</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Обновить ALV-таблицу</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_EDITABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Сделать таблицу редактируемой</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_EDITABLE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Сделать таблицу редактируемой</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_FIELDCATALOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Устанавливает каталог полей</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_FIELDCATALOG</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Устанавливает каталог полей</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_SELECTED_ROWS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Устанавливает выделенные строки</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_SELECTED_ROWS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Устанавливает выделенные строки</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_TITLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Установить заголовок</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_TITLE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Установить заголовок</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>USE_ALV_STATUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Использовать GUI-статус с ALV-функциями</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>USE_ALV_STATUS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Использовать GUI-статус с ALV-функциями</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

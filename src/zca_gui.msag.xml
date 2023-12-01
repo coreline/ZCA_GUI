@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCA_GUI</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Сообщения пакета ZCA_GUI</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>GUI-исключение (System control error)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Режим редактирования не поддерживается</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ошибка десериализации</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Выбранный режим преобразования имен не поддерживается</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Режим отображения данных не определен</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Функция &amp; не существует</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Функция &amp; уже существует</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Превышен предел создания функций</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Экран инициализирован. Действие невозможно</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>GUI-статус уже используется другой таблицей</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GUI</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Не определена ссылка на инстанцию CL_GUI_ALV_GRID</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

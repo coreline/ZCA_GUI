@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_GUI_SCREEN</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Обертка экрана с контейнером</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ALV_FUNCTION</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>ALV-функция</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_FUNCTION</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Изменить функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Конструктор экрана</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_FUNCTION</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Создать функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISABLE_FUNCTION</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Отключить функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Показать экран в полноэкранном режиме</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ENABLE_FUNCTION</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Включить функцию в GUI-статусе</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXIT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Выход</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HIDE_TOOLBAR</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Скрыть панель инструментов</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INIT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Инициализация экрана</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_INITIALIZED</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>X - если экран был инициализирован</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PAI</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>PAI-логика</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>PBO-логика</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>POPUP</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Показать экран в модальном окне</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_TITLE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Установить заголовок</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SUPPRESS_STATUS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Подавить GUI-статус</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>USE_ALV_STATUS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Использовать GUI-статус с ALV-функциями</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>USE_DEFAULT_STATUS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Использовать стандартный GUI-статус</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
