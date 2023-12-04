@@ -114,8 +114,6 @@ START-OF-SELECTION.
 ![](https://raw.githubusercontent.com/coreline/ZCA_GUI/main/img/1.png)
 ![](https://raw.githubusercontent.com/coreline/ZCA_GUI/main/img/2.png)
 
-**Пример экрана с выводом 2-х таблиц. С кнопкой, которая открывает новый экран в модальном окне.**
-
 ## ZCL_GUI_SCREEN_ALV — экран с таблицей ALV
 Интерфейс класса напоминает ZCL_GUI_SCREEN
 Событие INIT передает в управление созданный экземпляр ZCL_GUI_SCREEN и предопределенные данные для его отображения, которые можно кастомизировать под конкретную задачу
